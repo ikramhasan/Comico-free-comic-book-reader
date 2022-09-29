@@ -1,28 +1,28 @@
 export default [
   {
-    header: 'About Me',
+    header: "About Me",
     items: [
       {
-        path: '/',
-        label: 'My Portfolio',
+        path: "https://www.ikramhasan.com",
+        label: "My Portfolio",
       },
 
       {
-        path: '/',
-        label: 'LinkedIn',
+        path: "https://www.linkedin.com/in/ikramhasan/",
+        label: "LinkedIn",
       },
     ],
   },
   {
-    header: 'Links',
+    header: "Links",
     items: [
       {
-        path: '/',
-        label: 'GitHub Repo',
+        path: "https://www.github.com/ikramhasan",
+        label: "GitHub Repo",
       },
       {
-        path: 'https://play.google.com/store/search?q=pub%3AIkram%20Hasan&c=apps',
-        label: 'Play Store',
+        path: "https://play.google.com/store/search?q=pub%3AIkram%20Hasan&c=apps",
+        label: "Play Store",
       },
     ],
   },

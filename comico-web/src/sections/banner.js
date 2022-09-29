@@ -41,9 +41,17 @@ export default function Banner() {
     setVideoOpen(true);
   };
 
-  function openInNewTab() {
+  function downloadAndroidApp() {
     var win = window.open(
-      "https://play.google.com/store/search?q=pub%3AIkram%20Hasan&c=apps",
+      "https://github.com/ikramhasan/Comico---Free-Comic-Book-Reader/releases/download/pre/comico-android-v0.1.apk",
+      "_blank"
+    );
+    // win.focus();
+  }
+
+  function downloadWindowsApp() {
+    var win = window.open(
+      "https://github.com/ikramhasan/Comico---Free-Comic-Book-Reader/releases/download/pre/comico-windows-v0.1.exe",
       "_blank"
     );
     // win.focus();
@@ -65,14 +73,14 @@ export default function Banner() {
               sx={{ mr: 5 }}
               variant="whiteButton"
               aria-label="Get Started"
-              onClick={openInNewTab}
+              onClick={downloadAndroidApp}
             >
               Download Android App
             </Button>
             <Button
               variant="whiteButton"
               aria-label="Get Started"
-              onClick={console.log("click")}
+              onClick={downloadWindowsApp}
             >
               Download Windows App
             </Button>
