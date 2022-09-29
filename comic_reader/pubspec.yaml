@@ -1,0 +1,57 @@
+name: comic_reader
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  comic_repository:
+    path: packages/comic_repository
+  google_fonts: ^3.0.1
+  flutter_bloc: ^8.1.1
+  bloc_concurrency: ^0.2.0
+  rxdart: ^0.27.5
+  responsive_grid: ^2.1.0
+  flutter_hooks: ^0.18.5+1
+  hive: ^2.2.3
+  path_provider: ^2.0.11
+  url_launcher: ^6.1.5
+  cached_network_image: ^3.2.1
+  ionicons: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  freezed: ^2.1.0+1
+  build_runner: ^2.2.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/comico-128.png"
+  web:
+    generate: true
+    image_path: "assets/comico-128.png"
+    background_color: "#000000"
+    theme_color: "#000000"
+  windows:
+    generate: true
+    image_path: "assets/comico-128.png"
+    icon_size: 128 # min:48, max:256, default: 48
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/comico-128.png
