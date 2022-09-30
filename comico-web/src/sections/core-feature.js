@@ -32,7 +32,7 @@ export default function CoreFeature() {
     <section sx={styles.coreFeature}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={laptopMockup} alt="Thumbnail" />
+          <Image src={laptopMockup} alt="Thumbnail" width={500} height={346} />
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>

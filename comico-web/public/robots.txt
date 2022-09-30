@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Sitemap: https://comico.vercel.app/sitemap.xml

@@ -62,7 +62,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Comico: A no-nonsense free comic book reader
+            Comico: A no-nonsense, free comic book reader
           </Heading>
           <Text as="p" variant="heroSecondary">
             A simple yet effective free comic book reader that does what it's
