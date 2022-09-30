@@ -43,7 +43,7 @@ export default function Banner() {
 
   function downloadAndroidApp() {
     var win = window.open(
-      "https://github.com/ikramhasan/Comico---Free-Comic-Book-Reader/releases/download/pre/comico-android-v0.1.apk",
+      "https://github.com/ikramhasan/Comico-free-comic-book-reader/releases/download/pre/comico-android-v0.1_permission_fix.apk",
       "_blank"
     );
     // win.focus();
